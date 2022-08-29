@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 11</title>
+</head>
+<body>
+    <p>Use o método Date correto para definir o ano de um objeto de data como 2020.</p>
+
+    <script>
+        const d = new Date();
+        day = d.getDay();
+        date = d.getDate();
+        mes = d.getMonth();
+        year = d.getFullYear();
+        let dias = ["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado"];
+        var str_data = dias[day] + ' , ' + date + '/' + (mes+1) + '/' + (year-2);
+        alert('Hoje é ' + str_data);
+    </script>
+
+    <img src="img11.png" alt="imagem 11">
+</body>
+</html>
