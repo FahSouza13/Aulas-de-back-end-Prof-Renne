@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando a caixa</title>
+    <style>
+        #caixa{background-color: rgb(68, 68, 94);
+        border: 2px solid black;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        }
+        #caixa:hover{background-color: aquamarine;}
+    
+        #tronco{background-color: rgb(68, 94, 74);
+        border: 2px solid black;
+        width: 350px;
+        height: 350px;
+        text-align: center;
+        }
+        #tronco:hover{background-color: rgb(255, 127, 127);}
+    
+    </style>
+    
+</head>
+<body id="corpo">
+    <div id="corpo">
+        <div id="caixa">
+            <p onclick="efeito()">É nois aqui!!!</p>
+        </div>
+
+        <div id="tronco">
+            <p onclick="efeito_tronco()">É nois aqui de novo!!!</p>
+        </div>
+    </div>
+    
+    <script>
+        function efeito() {
+            document.getElementById("caixa").style.display="none";
+            document.getElementById("corpo").style.backgroundColor="#000000";
+
+        }
+        function efeito_tronco() {
+            document.getElementById("tronco").style.display="none";
+            document.getElementById("corpo").style.backgroundColor="#000000";
+
+        }
+    </script>
+
+</body>
+</html>

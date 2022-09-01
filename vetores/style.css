@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body { font: 12pt Arial; }
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
+button { font-size: 12pt; padding: 30px; }
+
+#box_resultados{background-color: rgb(68, 68, 94);
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+
+}
+#box_resultados:hover{background-color: aquamarine;}
